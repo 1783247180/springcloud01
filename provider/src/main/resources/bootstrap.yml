@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    config:
+      name: provider-01
+      profile: test
+      label: rong
+      uri: http://localhost:12000
