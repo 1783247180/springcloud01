@@ -1,0 +1,6 @@
+spring:
+  redis:
+    host: 39.98.115.245
+    port: 6379
+  cache:
+    cache-names: c1

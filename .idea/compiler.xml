@@ -11,6 +11,8 @@
         <module name="config" />
         <module name="eureka" />
         <module name="springcloud01" />
+        <module name="user_user" />
+        <module name="user_common" />
         <module name="consumer" />
       </profile>
     </annotationProcessing>
@@ -21,6 +23,8 @@
       <module name="consumer" options="-parameters" />
       <module name="eureka" options="-parameters" />
       <module name="provider" options="-parameters" />
+      <module name="user_common" options="-parameters" />
+      <module name="user_user" options="-parameters" />
       <module name="zuul" options="-parameters" />
     </option>
   </component>
